@@ -1,9 +1,100 @@
-body {
+/* body {
   background: url('https://res.cloudinary.com/elijjaaahhhh/image/upload/v1589651541/brooke-lark-nLBcOY8t9tc-unsplash_nhwrh1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: rgb(26, 117, 98); */
-  /* overflow: hidden; */
-  /* background: brown; */
+  background-color: rgb(26, 117, 98);
+  overflow: hidden;
+  background: brown;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo a {
+  color: rgb(15, 15, 15);
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-left: 50px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#content {
+  background: url('https://res.cloudinary.com/elijjaaahhhh/image/upload/v1589651541/brooke-lark-nLBcOY8t9tc-unsplash_nhwrh1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  /* background-color: #423e3e; */
+  width: 100%;
+  /* max-height: 90px; */
+  z-index: 10;
+}
+
+nav .logo:hover {
+  /* width: 30%; */
+  color: chocolate;
+}
+
+nav ul {
+  /* width: 70%; */
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-left: 350px;
+}
+
+nav ul li {
+  padding: 0 3rem;
+  text-align: center;
+  /* height: 90px; */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+nav ul li a:hover {
+  color: chocolate;
+  text-decoration: none;
+}
+
+.active a {
+  color: #ffd11a;
+  font-weight: 900;
+}
+
+.active {
+  border-bottom: 2px solid #ffd11a;
 }
