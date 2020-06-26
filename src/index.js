@@ -1,9 +1,9 @@
 import './css/main.css';
 
-import homepage from './home.js';
-import contact from './contact.js';
+import homepage from './home';
+import contact from './contact';
 import navBar from './navbar';
-import menuTab from './menu.js';
+import menuTab from './menu';
 
 navBar();
 homepage();
@@ -24,26 +24,25 @@ contactContainer.style.display = 'none';
 menuContainer.style.display = 'none';
 
 menuPage.addEventListener('click', () => {
-    homeContainer.style.display = 'none';
-    contactContainer.style.display = 'none';
-    menuContainer.style.display = 'block';
+  homeContainer.style.display = 'none';
+  contactContainer.style.display = 'none';
+  menuContainer.style.display = 'block';
 });
 
 homePage.addEventListener('click', () => {
-    homeContainer.style.display = 'block';
-    contactContainer.style.display = 'none';
-    menuContainer.style.display = 'none';
+  homeContainer.style.display = 'block';
+  contactContainer.style.display = 'none';
+  menuContainer.style.display = 'none';
 });
 
 logo.addEventListener('click', () => {
-    homeContainer.style.display = 'block';
-    contactContainer.style.display = 'none';
-    menuContainer.style.display = 'none';
+  homeContainer.style.display = 'block';
+  contactContainer.style.display = 'none';
+  menuContainer.style.display = 'none';
 });
 
 contactPage.addEventListener('click', () => {
-    homeContainer.style.display = 'none';
-    contactContainer.style.display = 'block';
-    menuContainer.style.display = 'none';
+  homeContainer.style.display = 'none';
+  contactContainer.style.display = 'block';
+  menuContainer.style.display = 'none';
 });
-

@@ -13,6 +13,5 @@ const homepage = () => {
   <p> </p>`;
   items.appendChild(container);
   content.appendChild(items);
-  
 };
 export default homepage;

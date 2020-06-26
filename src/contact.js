@@ -1,5 +1,5 @@
 const contact = () => {
-  const content = document.getElementById('content')
+  const content = document.getElementById('content');
   const items = document.createElement('div');
   items.id = 'contact-container';
 
@@ -14,8 +14,7 @@ const contact = () => {
   <p class="fa fa-whatsapp"> : +2348062540732</p>
   <p> </p>`;
   items.appendChild(container);
-  content.appendChild(items)
-
+  content.appendChild(items);
 };
 
 export default contact;

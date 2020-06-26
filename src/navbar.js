@@ -16,9 +16,8 @@ const navItems = () => {
 
 
 const navBar = () => {
-  const content = document.getElementById('content')
+  const content = document.getElementById('content');
   const nav = document.createElement('nav');
-  const container = document.createElement('div');
   nav.setAttribute('class', 'nav');
   const logo = document.createElement('p');
   logo.setAttribute('class', 'logo');
@@ -27,7 +26,7 @@ const navBar = () => {
   `;
   nav.appendChild(logo);
   nav.appendChild(navItems());
-  content.appendChild(nav)
+  content.appendChild(nav);
   return null;
 };
 
