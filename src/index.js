@@ -3,22 +3,22 @@ import './css/main.css';
 import homepage from './home.js';
 import contact from './contact.js';
 import navBar from './navbar';
-// import menuTab from './menu.js';
-// homepage();
-// contact();
-// menuTab();
-// navBar()
+import menuTab from './menu.js';
 
-const content = document.getElementById('content');
 const container = document.createElement('div');
 container.setAttribute('id', 'container');
 
-const start = () => {
-    content.appendChild(navBar());
-    content.appendChild(container);
-    container.appendChild(homepage());
-};
-start();
+navBar();
+homepage();
+contact();
+menuTab();
+
+// const start = () => {
+//     content.appendChild(navBar());
+//     content.appendChild(container);
+//     container.appendChild(homepage());
+// };
+// start();
 
 // const homePage = document.getElementById('home');
 // const menuPage = document.getElementById('menu');

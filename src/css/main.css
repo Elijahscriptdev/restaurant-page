@@ -15,7 +15,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -45,8 +45,8 @@ h6 {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 nav {
@@ -54,7 +54,7 @@ nav {
   /* background-color: #423e3e; */
   width: 100%;
   /* max-height: 90px; */
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 nav .logo:hover {

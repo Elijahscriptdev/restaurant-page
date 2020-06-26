@@ -16,28 +16,25 @@ const menuTab = () => {
             'Fries',
             'This is an insane fri collection made with fine ingredients... So decadent!',
         ],
-        [
-            three,
-            'Waffle',
-            'This is an insane waffle housing of yumminess made with fine ingredients... Can you handle it!',
-        ],
-        [
-            four,
-            'Pizza',
-            'Who does not love pizza?! Looks small but packs a huge punch.',
-        ],
-        [
-            five,
-            'Hot-Dog',
-            'The classic packed with so many ingredients!'
-        ]
+        // [
+        //     three,
+        //     'Waffle',
+        //     'This is an insane waffle housing of yumminess made with fine ingredients... Can you handle it!',
+        // ],
+        // [
+        //     four,
+        //     'Pizza',
+        //     'Who does not love pizza?! Looks small but packs a huge punch.',
+        // ],
+        // [five, 'Hot-Dog', 'The classic packed with so many ingredients!'],
     ];
-    const menu = document.getElementById('menu');
-
+    // const menu = document.getElementById('menu');
+    const menu = document.getElementById('content')
+    // const items = document.createElement('div');
+    // items.id = 'contact';
     // Create the tags
     const cardColumn = document.createElement('div');
     cardColumn.setAttribute('class', 'card-columns');
-
     //   Dynamically generate the inside tags
     /* eslint-disable */
     for (let i = 0; i < menuList.length; i += 1) {
@@ -54,7 +51,6 @@ const menuTab = () => {
         const cardText = document.createElement('p');
         cardText.setAttribute('class', 'card-text');
         cardText.textContent = menuList[i][2];
-
         // Add it
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);
@@ -63,7 +59,7 @@ const menuTab = () => {
         cardColumn.appendChild(card);
     }
     /* eslint-enable */
-    menu.appendChild(cardColumn);
+    content.appendChild(cardColumn);
 };
 
 export default menuTab;
