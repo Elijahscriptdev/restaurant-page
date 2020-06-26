@@ -9,8 +9,8 @@ The goal of the project is to show the understanding of the benefits of modulari
 
 ### Homepage
 
-![Homepage]()
-
+![homepage](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1593198971/FireShot_Capture_122_-_Restaurant_Page_-_localhost_mcljln.png)
+![contactpage](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1593198971/FireShot_Capture_124_-_Restaurant_Page_-_localhost_ebhimo.png)
 ---
 
 ## Built With
