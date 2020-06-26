@@ -70,3 +70,20 @@ nav ul li a:hover {
   text-decoration: none;
   border-bottom: 2px solid chocolate;
 }
+
+.home-container {
+  margin: 150px 100px;
+}
+
+.home-container h1{
+  font-size: 100px;
+  font-family: "Sacramento", cursive;
+  border-bottom: 10px solid chocolate;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.home-container p{
+  font-size: 80px;
+  letter-spacing: 2px;
+}

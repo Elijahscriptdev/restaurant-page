@@ -9,7 +9,7 @@ const homepage = () => {
   container.innerHTML = `
   <h1 class=""> Tasty Fries </h1>
   <br />
-  <p class=""><strong>Taste is everything !!</strong></p>
+  <p class=""> Quality is our obsession, <strong>Taste is everything !!</strong></p>
   <p> </p>`;
   items.appendChild(container);
   content.appendChild(items);
