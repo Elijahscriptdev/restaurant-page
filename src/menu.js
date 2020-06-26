@@ -16,26 +16,17 @@ const menuTab = () => {
             'Fries',
             'This is an insane fri collection made with fine ingredients... So decadent!',
         ],
-        // [
-        //     three,
-        //     'Waffle',
-        //     'This is an insane waffle housing of yumminess made with fine ingredients... Can you handle it!',
-        // ],
-        // [
-        //     four,
-        //     'Pizza',
-        //     'Who does not love pizza?! Looks small but packs a huge punch.',
-        // ],
-        // [five, 'Hot-Dog', 'The classic packed with so many ingredients!'],
+        [
+            three,
+            'Waffle',
+            'This is an insane waffle housing of yumminess made with fine ingredients... Can you handle it!',
+        ]
     ];
-    // const menu = document.getElementById('menu');
-    const menu = document.getElementById('content')
-    // const items = document.createElement('div');
-    // items.id = 'contact';
+    const content = document.getElementById('content')
     // Create the tags
     const cardColumn = document.createElement('div');
     cardColumn.setAttribute('class', 'card-columns');
-    //   Dynamically generate the inside tags
+
     /* eslint-disable */
     for (let i = 0; i < menuList.length; i += 1) {
         const card = document.createElement('div');

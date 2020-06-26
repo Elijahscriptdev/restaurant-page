@@ -1,12 +1,11 @@
 const contact = () => {
   const content = document.getElementById('content')
-    const items = document.createElement('div');
-    items.id = 'contact';
+  const items = document.createElement('div');
+  items.id = 'contact-container';
 
-    items.classList.add('homepage');
-    const container = document.createElement('div', 'container');
-    container.classList.add('card');
-    container.innerHTML = `
+  const container = document.createElement('div');
+  container.classList.add('card', 'contact-container');
+  container.innerHTML = `
   <h3 class=""> Get in Touch </h3>
   
   <p class="fa fa-facebook"> : Elijah Obominuru</p>
@@ -14,10 +13,9 @@ const contact = () => {
   <p class="fa fa-envelope"> : elijahobominuru@gmail.com</p>
   <p class="fa fa-whatsapp"> : +2348062540732</p>
   <p> </p>`;
-    items.appendChild(container);
-    content.appendChild(items)
+  items.appendChild(container);
+  content.appendChild(items)
 
-  return null;
 };
 
 export default contact;

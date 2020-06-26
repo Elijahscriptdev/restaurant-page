@@ -18,6 +18,7 @@ const navItems = () => {
 const navBar = () => {
   const content = document.getElementById('content')
   const nav = document.createElement('nav');
+  const container = document.createElement('div');
   nav.setAttribute('class', 'nav');
   const logo = document.createElement('p');
   logo.setAttribute('class', 'logo');

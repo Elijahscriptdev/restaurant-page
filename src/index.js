@@ -5,63 +5,45 @@ import contact from './contact.js';
 import navBar from './navbar';
 import menuTab from './menu.js';
 
-const container = document.createElement('div');
-container.setAttribute('id', 'container');
-
 navBar();
 homepage();
 contact();
 menuTab();
 
-// const start = () => {
-//     content.appendChild(navBar());
-//     content.appendChild(container);
-//     container.appendChild(homepage());
-// };
-// start();
+const homePage = document.getElementById('home');
+const menuPage = document.getElementById('menu');
+const contactPage = document.getElementById('contact');
+const logo = document.getElementById('logo');
 
-// const homePage = document.getElementById('home');
-// const menuPage = document.getElementById('menu');
-// const contactPage = document.getElementById('contact');
-// const logo = document.getElementById('logo');
+const homeContainer = document.querySelector('.home-container');
+const contactContainer = document.querySelector('#contact-container');
+const menuContainer = document.querySelector('.card-columns');
 
-// const clickHome = () => {
-//     container.innerHTML = '';
-//     container.appendChild(home());
-//     homePage.classList.add('active');
-//     menuPage.classList.remove('active');
-//     contactPage.classList.remove('active');
-// };
-// clickHome();
+homeContainer.style.display = 'block';
+contactContainer.style.display = 'none';
+menuContainer.style.display = 'none';
 
-// const clickMenu = () => {
-//     container.innerHTML = '';
-//     container.appendChild(menu());
-//     menuPage.classList.add('active');
-//     homePage.classList.remove('active');
-//     contactPage.classList.remove('active');
-// };
+menuPage.addEventListener('click', () => {
+    homeContainer.style.display = 'none';
+    contactContainer.style.display = 'none';
+    menuContainer.style.display = 'block';
+});
 
-// const clickContact = () => {
-//     container.innerHTML = '';
-//     container.appendChild(contact());
-//     homePage.classList.remove('active');
-//     menuPage.classList.remove('active');
-//     contactPage.classList.add('active');
-// };
+homePage.addEventListener('click', () => {
+    homeContainer.style.display = 'block';
+    contactContainer.style.display = 'none';
+    menuContainer.style.display = 'none';
+});
 
-// homePage.addEventListener('click', () => {
-//     clickHome();
-// });
+logo.addEventListener('click', () => {
+    homeContainer.style.display = 'block';
+    contactContainer.style.display = 'none';
+    menuContainer.style.display = 'none';
+});
 
-// logo.addEventListener('click', () => {
-//     clickHome();
-// });
+contactPage.addEventListener('click', () => {
+    homeContainer.style.display = 'none';
+    contactContainer.style.display = 'block';
+    menuContainer.style.display = 'none';
+});
 
-// menuPage.addEventListener('click', () => {
-//     clickMenu();
-// });
-
-// contactPage.addEventListener('click', () => {
-//     clickContact();
-// });
