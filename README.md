@@ -69,7 +69,7 @@ Contributions, issues and feature requests are welcome! Start by:
 👤 **Elijah Obominuru**
 
 [Github](https://github.com/Elijahscriptdev) | [Twitter](https://twitter.com/ElijahObominuru) | [LinkedIn](https://www.linkedin.com/in/elijah-obominuru-0b730b143/)
-- Email: zea.seth@gmail.com
+- Email: elijahobominuru@gmail.com
 
 ---
 
