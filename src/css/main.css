@@ -13,17 +13,6 @@ h2 {
   font-family: "Poppins", sans-serif;
 }
 
-.logo a {
-  color: rgb(15, 15, 15);
-  font-family: "Sacramento", cursive;
-  font-size: 40px;
-  letter-spacing: 2px;
-  font-weight: 800;
-  margin-left: 50px;
-  font-size: 40px;
-  text-decoration: none;
-}
-
 #content {
   background: url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1589651541/brooke-lark-nLBcOY8t9tc-unsplash_nhwrh1.jpg");
   background-size: cover;
@@ -61,6 +50,16 @@ nav ul li a {
   font-weight: 700;
 }
 
+.logo a {
+  color: rgb(15, 15, 15);
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
 nav ul li a:hover {
   color: chocolate;
   text-decoration: none;
@@ -71,7 +70,7 @@ nav ul li a:hover {
   margin: 150px 100px;
 }
 
-.home-container h1{
+.home-container h1 {
   font-size: 100px;
   font-family: "Sacramento", cursive;
   border-bottom: 10px solid chocolate;
@@ -79,7 +78,7 @@ nav ul li a:hover {
   font-weight: 800;
 }
 
-.home-container p{
+.home-container p {
   font-size: 40px;
   letter-spacing: 2px;
 }
