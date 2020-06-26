@@ -4,7 +4,7 @@ const contact = () => {
   items.id = 'contact-container';
 
   const container = document.createElement('div');
-  container.classList.add('card', 'contact-container');
+  container.classList.add('card', 'contact-container', 'text-center');
   container.innerHTML = `
   <h3 class=""> Get in Touch </h3>
   
