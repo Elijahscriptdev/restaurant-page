@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+#content {
+  background: url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1589651541/brooke-lark-nLBcOY8t9tc-unsplash_nhwrh1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+nav .logo:hover {
+  color: chocolate;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-left: 350px;
+}
+
+nav ul li {
+  padding: 0 3rem;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo a {
+  color: rgb(15, 15, 15);
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: chocolate;
+  text-decoration: none;
+  border-bottom: 2px solid chocolate;
+}
+
+.home-container {
+  margin: 150px 100px;
+}
+
+.home-container h1 {
+  font-size: 100px;
+  font-family: "Sacramento", cursive;
+  border-bottom: 10px solid chocolate;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.home-container p {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.contact-container {
+  margin: 150px auto;
+  width: 650px;
+  padding: 30px;
+}
+
+.card-columns {
+  margin: 30px 250px;
+}
